@@ -5,6 +5,10 @@ import Html exposing (audio, video)
 import Html.Attributes exposing (controls, width, height, loop)
 
 
+{-| If this works, you should see a screaming scientist on recent versions of Safari & Edge,
+a tractor with a big green "VP9" on recent Firefox & Chrome, and normal tractor
+on everything else
+-}
 main =
     let
         h265 =
